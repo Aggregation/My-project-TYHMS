@@ -13,7 +13,7 @@ public class ClassTest {
 	@Test
 	public void t2()
 	{
-		System.out.println("second method");
+		System.out.println(" second method");
 	}
 
 }
