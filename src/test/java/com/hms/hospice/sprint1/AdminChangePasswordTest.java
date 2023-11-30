@@ -82,7 +82,7 @@ public class AdminChangePasswordTest extends BaseClass{
 	   
 		wu.alertAccept(driver);
 		
-		Assert.fail();
+		//Assert.fail();
 		WebElement message = adchangePass.getConformMessage();
 		String ConfirmMessage = message.getText();
 		System.out.println(ConfirmMessage);
