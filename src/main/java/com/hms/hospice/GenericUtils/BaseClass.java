@@ -66,6 +66,7 @@ public class BaseClass {
 	@BeforeMethod(alwaysRun = true)
 	public void config_BM() throws Throwable
 	{
+		System.out.println("next ----------");
 		String URL = fu.readDataFromPropertyFile("url");
 		String AUN=fu.readDataFromPropertyFile("AdminUsername");
 		String APWD = fu.readDataFromPropertyFile("AdminPassword");
