@@ -55,7 +55,7 @@ public class BaseClass {
 			System.out.println("--Invalid Browser--");
 		}
 		
-		Thread.sleep(5000);
+		Thread.sleep(7000);
 		sdriver=driver;
 		wu.maximizeWindow(driver);
 		
